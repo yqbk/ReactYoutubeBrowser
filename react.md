@@ -56,6 +56,8 @@ We can also initialize our object be setting its initial state:
 this.state = { smth: '' } 
 ```
 
+### NEVER CHANGE VALUE OF THE STATE DIRECTLY (outside constructor)!!!
+
 2. ` render() { return <div /> } `
 
 We need to implement `render` method that definies the way our component is "presented" on web page.
