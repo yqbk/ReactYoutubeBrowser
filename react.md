@@ -62,8 +62,17 @@ this.state = { smth: '' }
 
 We need to implement `render` method that definies the way our component is "presented" on web page.
 
+## Arrays
 
+Iterate through an array by build-in iterators like map or reduce. 
 
+React is intelligent enaught to detect, that component to render is a list. If included in ```<ul>``` tag, generate list automatically.
 
+### Array keys
+
+When we do not provide unique key for each item in array we will get an error:
+```
+Each child in an array should have a unique "key" prop.
+```
 
 
