@@ -78,3 +78,5 @@ Each child in an array should have a unique "key" prop.
 -------
 
 ```({ video }) => {} ``` takes the first object from props list maching name `video`.
+
+Curly brackets ```{ }``` when referencing javascript variable inside JSX.
