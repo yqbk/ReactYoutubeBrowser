@@ -20,7 +20,7 @@ class App extends Component {
 
 		YTSearch({key: API_KEY, term: 'taco hemingway'}, (videos) => {
 			this.setState({
-			  videos,
+			  videos: videos,
         selectedVideo: videos[0]
 			});
 		});
@@ -28,7 +28,7 @@ class App extends Component {
 		console.log(this.state);
 
 	}
-	
+
 	render() {
 		return (
 			<div>
