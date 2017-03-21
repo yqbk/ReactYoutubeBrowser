@@ -80,3 +80,29 @@ Each child in an array should have a unique "key" prop.
 ```({ video }) => {} ``` takes the first object from props list maching name `video`.
 
 Curly brackets ```{ }``` when referencing javascript variable inside JSX.
+
+
+
+---
+
+## Difference between class based component and functional component
+
+1. Whenever we want to use a concept of state in our component we use class.
+
+2. Functional components are lightweight, fast and demand less amount of code than class components.
+
+
+## State
+
+```this.state = ``` *only once* in constructor!
+```this.setState() ``` to change component's state.
+
+Each component has its own state. Whenever state is updated, it is changed only directly locally.
+
+## Import and Export
+
+Relative path to each component, library name when using node.
+
+## Callbacks
+
+In react-only we use callbacks twice.
