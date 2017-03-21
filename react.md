@@ -75,4 +75,6 @@ When we do not provide unique key for each item in array we will get an error:
 Each child in an array should have a unique "key" prop.
 ```
 
+-------
 
+```({ video }) => {} ``` takes the first object from props list maching name `video`.
